@@ -141,7 +141,7 @@
 
   <script>
     const API_KEY = "eb1bfedba1baf5d2fd0326e1048c1cd8";
-    const movieId = new URLSearchParams(window.location.search).get("watch_id");
+    const pathArray = window.location.pathname.split('/');
 
     const posterImage = document.getElementById("poster-image");
     const movieTitle = document.getElementById("movie-title");
